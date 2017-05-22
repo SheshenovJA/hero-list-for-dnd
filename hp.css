@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#hp-count-up{
+  width: 40px;
+  height: 30px;
+}
+#target{
+  display: block;
+  border: 1px solid #000;
+  height: 40px;
+}
+#hp-item{
+  margin: 12px 1px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="hp.css">
+
+</head>
+<body>
+  <p>Enter a HP</p>
+<input type="button" id="hp-count-up" value ="+">
+  <div id="target">
+     <!-- all divs will append here -->
+  </div>
+  <script type="text/javascript">
+  $( "#hp-count-up" ).click(function() {
+    for(var i =1; i<= 1; i++){
+  $('#target').append($('<div/>', { id: 'hp-item', 'class' : 'ansbox'}))
+}
+  });
+  </script>
+
+  </script>
+</body>
+
+</html>
